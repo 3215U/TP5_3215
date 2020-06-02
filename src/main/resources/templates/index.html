@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>HOME</title>
+    <link href="css/estilos.css" rel="stylesheet">
+    <link rel="stylesheet" href="icono/css/all.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo1">LA LIGA DE FUTBOL</h1>
+    </header>
+
+    <nav>
+        <ul class="menul">
+            <li><a class="menuli" href="index.html">HOME</a></li>
+            <li><a class="menuli" href="fixture.html">FIXTURE Y RESULTADOS</a></li>
+            <li><a class="menuli" href="equipos.html">EQUIPOS</a></li>
+        </ul>
+        <div id="welcome">
+        <h4 th:text=" 'Bienvenido!' + ${usuario}"></h4>
+        </div>
+    </nav>
+
+    <div class="centro">
+        <section class="section">
+            <h2 class="noti">NOTICIA</h2>
+            <article>
+                <div class="notidiv" id="notidiv1">
+                    <a href="https://www.fortalezagranate.com.ar/futbol-en-cuarentena/"><img class="imgdivn" src="img/cancelado.jpg" alt=""></a>
+                    <p class="pdivn"> 12/03/2020</p>
+                    <br />
+                    <p class="pdivn1">Nueva noticia de los</p>
+                    <p class="pdivn1"> partidos</p>
+                    <p class="pdivn1">suspendidos ppor la</p>
+                    <p class="pdivn1">cuarentena...</p>
+                </div>
+
+                <div class="notidiv" id="notidiv2">
+                    <a href="https://www.telam.com.ar/notas/202005/461844-alberto-fernandez-entrevista-aislamiento-social-economia.html"><img class="imgdivn" src="img/vuelta.jpg" alt=""></a>
+                    <p class="pdivn">09/05/2020</p>
+                    <br />
+                    <p class="pdivn1">Estan pensando en</p>
+                    <p class="pdivn1"> empezar a disfrutar de los</p>
+                    <p class="pdivn1">partidos de futbol</p>
+                    <p class="pdivn1">por televisión...</p>
+                </div>
+
+                <div class="notidiv" id="notidiv3">
+                    <a href="https://www.pagina12.com.ar/266269-volvio-el-futbol-en-alemania"><img class="imgdivn" src="img/reprogramacion.jpg" alt=""></a>
+                    <p class="pdivn">16/05/2020</p>
+                    <br />
+                    <p class="pdivn1">Bundesliga se convirtió</p>
+                    <p class="pdivn1">en la primera de las</p>
+                    <p class="pdivn1">Ligas "grandes" de</p>
+                    <p class="pdivn1">Europa en retomar...</p>
+                </div>
+
+            </article>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </section>
+        <aside>
+            <h4 class="auspi"> Auspiciantes</h4>
+            <a class="publi" href="https://www.adidas.com.ar/"><img class="imga" src="img/adidas.jpg" alt=""></a>
+            <a class="publi" href="https://www.macro.com.ar/"><img class="imga" src="img/macro.jpg" alt=""></a>
+            <a class="publi" href="https://www.chevrolet.com.ar/"><img class="imga" src="img/chevrolet.jpg" alt=""></a>
+            <a class="publi" href="https://www.fravega.com/"><img class="imga" src="img/fravega.jpg" alt=""></a>
+        </aside>
+    </div>
+    <footer>
+        <div id="social-bar">
+            <button><i class="fab fa-facebook-square" ></i></button>
+            <button><i class="fab fa-twitter-square"></i></button>
+            <button><i class="fab fa-instagram-square"></i></button>
+            <button><i class="fab fa-pinterest-square"></i></button>
+            <button><i class="fab fa-youtube"></i></button>
+        </div>
+        <div id="direccion">
+            <h5>Avenida Pedro Ortiz de Zarate Nº 455 - Tel 388 4789558</h5>
+        </div>
+    </footer>
+</body>
+
+</html>

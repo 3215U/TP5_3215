@@ -70,9 +70,8 @@ public class Benicio3215Tp5Application implements CommandLineRunner{
 		usuario.setTipo("SOCIO");
 		
 		usuarioService.guardar();
-		
+	/**
 		//Equipo
-		//no sirva
 		equipo.setNombre("BOCA");
 		equipo.setEstadio(estadio);
 		
@@ -91,8 +90,8 @@ public class Benicio3215Tp5Application implements CommandLineRunner{
 		noticia.setTitulo("Partidos suspendidos");
 		noticia.setResumen("Nueva noticia de los partidos suspendidos ppor la cuarentena...");
 		noticia.setFecha(LocalDate.of(12, 02, 2020));
-		
-		noticiaService.guardar();
+	
+	/*	noticiaService.guardar();
 		
 		//Resultado
 		
@@ -111,6 +110,6 @@ public class Benicio3215Tp5Application implements CommandLineRunner{
 		cuota.setUsuario(usuario);
 		
 		cuotaService.guardar();
-			
+		*/	
 	}
 }

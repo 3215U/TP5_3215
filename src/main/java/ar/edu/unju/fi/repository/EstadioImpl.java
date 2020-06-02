@@ -25,7 +25,7 @@ public class EstadioImpl implements IEstadio {
 	@Override
 	public void guardar() {
 		// accion ejecutada para guardar un obeto estadio en la BD
-		LOG.info("El usuario fue guardado: " + estadio.getCiudad() +", "+estadio.getDireccion());
+		LOG.info("El estdaio fue guardado: " + estadio.getCiudad() +", "+estadio.getDireccion());
 	}
 
 

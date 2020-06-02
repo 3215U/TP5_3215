@@ -25,7 +25,7 @@ public class EquipoImpl implements IEquipo {
 	@Override
 	public void guardar() {
 		// accion ejecutada para guardar un obeto equipo en la BD
-		LOG.info("El usuario fue guardado: " +equipo.getEstadio()+", "+ equipo.getNombre());
+		LOG.info("El equipo fue guardado: " +equipo.getNombre());
 	}
 
 
